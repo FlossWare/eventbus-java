@@ -1,6 +1,6 @@
 # JEventBus
 
-[![Maven Central](https://img.shields.io/maven-central/v/org.flossware/jeventbus.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.flossware/jeventbus)
+[![Maven Central](https://img.shields.io/maven-central/v/org.flossware/eventbus-java.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.flossware/eventbus-java)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Event bus and service registry for inter-application communication in Java.
@@ -22,7 +22,7 @@ Event bus and service registry for inter-application communication in Java.
 ```xml
 <dependency>
     <groupId>org.flossware</groupId>
-    <artifactId>jeventbus</artifactId>
+    <artifactId>eventbus-java</artifactId>
     <version>1.0</version>
 </dependency>
 ```
@@ -30,7 +30,7 @@ Event bus and service registry for inter-application communication in Java.
 ### Gradle
 
 ```gradle
-implementation 'org.flossware:jeventbus:1.0'
+implementation 'org.flossware:eventbus-java:1.0'
 ```
 
 ## Quick Start
@@ -38,8 +38,8 @@ implementation 'org.flossware:jeventbus:1.0'
 ### Message Bus
 
 ```java
-import org.flossware.jeventbus.*;
-import org.flossware.jeventbus.api.*;
+import org.flossware.eventbus-java.*;
+import org.flossware.eventbus-java.api.*;
 
 // Create message bus
 InMemoryMessageBus messageBus = new InMemoryMessageBus();
@@ -67,8 +67,8 @@ messageBus.shutdown();
 ### Service Registry
 
 ```java
-import org.flossware.jeventbus.*;
-import org.flossware.jeventbus.api.*;
+import org.flossware.eventbus-java.*;
+import org.flossware.eventbus-java.api.*;
 
 // Create registry
 ServiceRegistryImpl registry = new ServiceRegistryImpl();
@@ -350,9 +350,9 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## Links
 
-- [GitHub Repository](https://github.com/FlossWare/jeventbus)
-- [Issue Tracker](https://github.com/FlossWare/jeventbus/issues)
-- [Javadoc](https://javadoc.io/doc/org.flossware/jeventbus)
+- [GitHub Repository](https://github.com/FlossWare/eventbus-java)
+- [Issue Tracker](https://github.com/FlossWare/eventbus-java/issues)
+- [Javadoc](https://javadoc.io/doc/org.flossware/eventbus-java)
 
 ## Changelog
 

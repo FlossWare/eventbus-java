@@ -1,7 +1,7 @@
-package org.flossware.jeventbus;
+package org.flossware.eventbus;
 
-import org.flossware.jeventbus.api.Message;
-import org.flossware.jeventbus.api.Subscription;
+import org.flossware.eventbus.api.Message;
+import org.flossware.eventbus.api.Subscription;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterEach;
 import static org.junit.jupiter.api.Assertions.*;

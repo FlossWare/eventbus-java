@@ -1,4 +1,4 @@
-package org.flossware.jeventbus.api;
+package org.flossware.eventbus.api;
 
 import java.util.List;
 import java.util.Optional;

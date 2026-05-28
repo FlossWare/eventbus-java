@@ -1,6 +1,6 @@
-package org.flossware.jeventbus;
+package org.flossware.eventbus;
 
-import org.flossware.jeventbus.api.Message;
+import org.flossware.eventbus.api.Message;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;

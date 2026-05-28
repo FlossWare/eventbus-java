@@ -1,4 +1,4 @@
-package org.flossware.jeventbus.api;
+package org.flossware.eventbus.api;
 
 /**
  * Functional interface for handling messages received from the message bus.

@@ -1,6 +1,6 @@
-package org.flossware.jeventbus;
+package org.flossware.eventbus;
 
-import org.flossware.jeventbus.api.ServiceRegistry;
+import org.flossware.eventbus.api.ServiceRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

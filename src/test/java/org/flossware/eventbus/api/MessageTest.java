@@ -1,4 +1,4 @@
-package org.flossware.jeventbus.api;
+package org.flossware.eventbus.api;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;

@@ -1,4 +1,4 @@
-package org.flossware.jeventbus.api;
+package org.flossware.eventbus.api;
 
 /**
  * Publish/subscribe message bus for inter-application communication.

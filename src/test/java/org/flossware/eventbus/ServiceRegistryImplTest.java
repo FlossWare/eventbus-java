@@ -1,4 +1,4 @@
-package org.flossware.jeventbus;
+package org.flossware.eventbus;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;

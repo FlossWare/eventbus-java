@@ -1,4 +1,4 @@
-package org.flossware.jeventbus.api;
+package org.flossware.eventbus.api;
 
 /**
  * Represents an active subscription to a message bus topic.
